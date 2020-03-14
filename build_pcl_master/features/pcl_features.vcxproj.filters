@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\flare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\brisk_2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\boundary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\cppf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\cvfh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\our_cvfh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\crh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\don.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\fpfh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\gasd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\gfpfh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\integral_image_normal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\intensity_gradient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\intensity_spin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\linear_least_squares_normal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\moment_invariants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\moment_of_inertia_estimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\multiscale_feature_persistence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\narf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\normal_3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\normal_based_signature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\organized_edge_detection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\pfh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\ppf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\shot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\shot_lrf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\spin_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\principal_curvatures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\rift.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\rops_estimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\rsd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\grsd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\statistical_multiscale_interest_region_extraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\vfh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\esf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\3dsc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\usc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\src\range_image_border_extractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\flare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\brisk_2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\cppf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\cvfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\our_cvfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\crh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\don.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\fpfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\fpfh_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\from_meshes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\gasd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\gfpfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\integral_image2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\integral_image_normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\intensity_gradient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\intensity_spin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\linear_least_squares_normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\moment_invariants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\moment_of_inertia_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\multiscale_feature_persistence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\narf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\narf_descriptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\normal_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\normal_3d_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\normal_based_signature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\organized_edge_detection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\pfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\pfh_tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\pfhrgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\ppf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\ppfrgb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\shot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\shot_lrf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\shot_lrf_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\shot_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\spin_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\principal_curvatures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\rift.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\rops_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\rsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\grsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\statistical_multiscale_interest_region_extraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\vfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\esf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\3dsc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\usc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\boundary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\range_image_border_extractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\board.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\flare.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\brisk_2d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\cppf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\cvfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\our_cvfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\crh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\don.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\feature.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\fpfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\fpfh_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\gasd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\gfpfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\integral_image2D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\integral_image_normal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\intensity_gradient.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\intensity_spin.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\linear_least_squares_normal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\moment_invariants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\moment_of_inertia_estimation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\multiscale_feature_persistence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\narf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\normal_3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\normal_3d_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\normal_based_signature.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\organized_edge_detection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\pfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\pfhrgb.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\ppf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\ppfrgb.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\shot.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\shot_lrf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\shot_lrf_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\shot_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\spin_image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\principal_curvatures.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\rift.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\rops_estimation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\rsd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\grsd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\statistical_multiscale_interest_region_extraction.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\vfh.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\esf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\3dsc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\usc.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\boundary.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include\pcl\features\impl\range_image_border_extractor.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\features\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{279E8F77-EF4A-4F58-A5D7-6CC47F49D856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{013806A7-C7D6-4AAF-BAA9-A54CDAF5F35C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

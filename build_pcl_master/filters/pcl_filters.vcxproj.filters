@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\conditional_removal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\crop_box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\extract_indices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\filter_indices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\passthrough.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\shadowpoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\project_inliers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\radius_outlier_removal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\random_sample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\normal_space.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\sampling_surface_normal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\statistical_outlier_removal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\voxel_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\approximate_voxel_grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\bilateral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\fast_bilateral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\fast_bilateral_omp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\crop_hull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\voxel_grid_covariance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\voxel_grid_label.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\frustum_culling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\covariance_sampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\median_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\uniform_sampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\voxel_grid_occlusion_estimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\normal_refinement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\grid_minimum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\morphological_filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\local_maximum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\src\model_outlier_removal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\conditional_removal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\crop_box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\clipper3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\plane_clipper3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\box_clipper3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\crop_hull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\extract_indices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\filter_indices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\passthrough.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\shadowpoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\project_inliers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\radius_outlier_removal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\random_sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\normal_space.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\sampling_surface_normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\statistical_outlier_removal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\voxel_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\approximate_voxel_grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\bilateral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\fast_bilateral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\fast_bilateral_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\voxel_grid_covariance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\convolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\convolution_3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\voxel_grid_label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\voxel_grid_occlusion_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\frustum_culling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\covariance_sampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\median_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\uniform_sampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\normal_refinement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\grid_minimum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\morphological_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\local_maximum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\model_outlier_removal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\conditional_removal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\crop_box.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\crop_hull.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\plane_clipper3D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\box_clipper3D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\extract_indices.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\filter_indices.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\passthrough.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\shadowpoints.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\project_inliers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\radius_outlier_removal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\random_sample.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\normal_space.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\sampling_surface_normal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\statistical_outlier_removal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\voxel_grid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\approximate_voxel_grid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\bilateral.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\fast_bilateral.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\fast_bilateral_omp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\voxel_grid_covariance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\convolution.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\convolution_3d.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\voxel_grid_occlusion_estimation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\frustum_culling.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\covariance_sampling.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\median_filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\uniform_sampling.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\normal_refinement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\grid_minimum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\morphological_filter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\local_maximum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include\pcl\filters\impl\model_outlier_removal.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{279E8F77-EF4A-4F58-A5D7-6CC47F49D856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{013806A7-C7D6-4AAF-BAA9-A54CDAF5F35C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

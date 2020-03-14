@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\src\kdtree_flann.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include\pcl\kdtree\kdtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include\pcl\kdtree\io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include\pcl\kdtree\flann.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include\pcl\kdtree\kdtree_flann.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include\pcl\kdtree\impl\io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include\pcl\kdtree\impl\kdtree_flann.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{279E8F77-EF4A-4F58-A5D7-6CC47F49D856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{013806A7-C7D6-4AAF-BAA9-A54CDAF5F35C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

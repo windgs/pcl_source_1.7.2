@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\debayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\pcd_grabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\pcd_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\vtk_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\ply_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\ascii_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\compression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\lzf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\lzf_image_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\obj_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\ifs_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\image_grabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\hdl_grabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\vlp_grabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\robot_eye_grabber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\file_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\auto_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\io_exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\vtk_lib_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\png_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\openni2_grabber.cpp">
+      <Filter>OpenNI 2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\openni2\openni2_timer_filter.cpp">
+      <Filter>OpenNI 2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\openni2\openni2_video_mode.cpp">
+      <Filter>OpenNI 2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\openni2\openni2_convert.cpp">
+      <Filter>OpenNI 2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\openni2\openni2_device.cpp">
+      <Filter>OpenNI 2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\openni2\openni2_device_info.cpp">
+      <Filter>OpenNI 2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\openni2\openni2_device_manager.cpp">
+      <Filter>OpenNI 2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\image_rgb24.cpp">
+      <Filter>Image Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\image_yuv422.cpp">
+      <Filter>Image Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\image_ir.cpp">
+      <Filter>Image Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\src\image_depth.cpp">
+      <Filter>Image Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\eigen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\debayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\file_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\auto_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\lzf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\lzf_image_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\file_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\pcd_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\pcd_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\vtk_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\ply_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\tar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\obj_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\ascii_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\ifs_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\image_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\hdl_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\vlp_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\robot_eye_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\point_cloud_image_extractors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\io_exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\vtk_lib_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\png_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2_grabber.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\image_metadata_wrapper.h">
+      <Filter>Image Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\image.h">
+      <Filter>Image Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\image_rgb24.h">
+      <Filter>Image Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\image_yuv422.h">
+      <Filter>Image Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\image_ir.h">
+      <Filter>Image Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\image_depth.h">
+      <Filter>Image Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\pxc_grabber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\compression\octree_pointcloud_compression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\compression\color_coding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\compression\compression_profiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\compression\entropy_range_coder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\compression\point_coding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\impl\ascii_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\impl\pcd_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\impl\auto_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\impl\lzf_image_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\impl\synchronized_queue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\impl\point_cloud_image_extractors.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\compression\impl\entropy_range_coder.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\compression\impl\octree_pointcloud_compression.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\impl\vtk_lib_io.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2\openni.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2\openni2_metadata_wrapper.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2\openni2_frame_listener.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2\openni2_timer_filter.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2\openni2_video_mode.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2\openni2_convert.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2\openni2_device.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2\openni2_device_info.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include\pcl\io\openni2\openni2_device_manager.h">
+      <Filter>OpenNI 2\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\io\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="OpenNI 2\Header Files">
+      <UniqueIdentifier>{87FB0904-657A-4908-B8FB-90E3DC8DC561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenNI 2\Source Files">
+      <UniqueIdentifier>{ADB17E45-1664-41C4-BDFC-EA8EFE5CAA32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{279E8F77-EF4A-4F58-A5D7-6CC47F49D856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{013806A7-C7D6-4AAF-BAA9-A54CDAF5F35C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenNI 2">
+      <UniqueIdentifier>{D65ED40B-CD8B-4B9D-B54B-3D865B388B25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image Headers">
+      <UniqueIdentifier>{8E616D02-CC6A-451D-822E-97CA9575E792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image Sources">
+      <UniqueIdentifier>{FD1C13F5-84F9-422A-9CBB-EAC2B28A15F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

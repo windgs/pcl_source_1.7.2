@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\src\octree_inst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\boost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_nodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_key.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_pointcloud_density.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_pointcloud_occupancy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_pointcloud_singlepoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_pointcloud_pointvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_pointcloud_changedetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_pointcloud_voxelcentroid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_pointcloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree2buf_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_pointcloud_adjacency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\octree_pointcloud_adjacency_container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\impl\octree_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\impl\octree_pointcloud.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\impl\octree2buf_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\impl\octree_iterator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\impl\octree_search.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\impl\octree_pointcloud_voxelcentroid.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include\pcl\octree\impl\octree_pointcloud_adjacency.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{279E8F77-EF4A-4F58-A5D7-6CC47F49D856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{013806A7-C7D6-4AAF-BAA9-A54CDAF5F35C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\pcl_source_1.7.2\build_pcl_master\apps\include\pcl\apps\moc_pcd_video_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\apps\src\pcd_video_player\pcd_video_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pcl_source_1.7.2\build_pcl_master\apps\ui_pcd_video_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\apps\CMakeLists.txt" />
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\apps\src\pcd_video_player\pcd_video_player.ui" />
+    <CustomBuild Include="F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\17cb2561239d3b2fc78d74486417d9c5\moc_pcd_video_player.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{279E8F77-EF4A-4F58-A5D7-6CC47F49D856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{013806A7-C7D6-4AAF-BAA9-A54CDAF5F35C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FFA238F4-4407-455E-BA83-92FFFB238585}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

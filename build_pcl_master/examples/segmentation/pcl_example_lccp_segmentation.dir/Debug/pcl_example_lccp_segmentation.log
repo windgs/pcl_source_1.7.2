@@ -1,0 +1,21 @@
+﻿Build started 2020/3/11 16:10:06.
+     1>Project "D:\gitHub\GuangPoRepository\pcl_source_1.7.2\build_pcl_master\examples\segmentation\pcl_example_lccp_segmentation.vcxproj" on node 4 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/ZERO_CHECK.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/common/pcl_common.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/features/pcl_features.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/filters/pcl_filters.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/io/pcl_io.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/io/pcl_io_ply.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/kdtree/pcl_kdtree.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/ml/pcl_ml.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/octree/pcl_octree.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/sample_consensus/pcl_sample_consensus.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/search/pcl_search.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/segmentation/pcl_segmentation.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1492,5): warning : The referenced project 'F:/pcl_source_1.7.2/build_pcl_master/visualization/pcl_visualization.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(399,5): error MSB3191: Unable to create directory "F:\pcl_source_1.7.2\build_pcl_master\bin\". Could not find a part of the path 'F:\pcl_source_1.7.2\build_pcl_master\bin\'.
+     1>Done Building Project "D:\gitHub\GuangPoRepository\pcl_source_1.7.2\build_pcl_master\examples\segmentation\pcl_example_lccp_segmentation.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.02

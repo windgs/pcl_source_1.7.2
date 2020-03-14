@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1DE3A845-67C1-4737-9451-50B7623130D2}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>pcl_segmentation</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\pcl_source_1.7.2\build_pcl_master\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pcl_segmentation.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pcl_segmentation_debug</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\pcl_source_1.7.2\build_pcl_master\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pcl_segmentation.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pcl_segmentation_release</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -fPIC -fPIC -fPIC -fPIC -fPIC /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\geometry\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_DISABLE_ASSERTS;EIGEN_NO_DEBUG;BOOST_ALL_NO_LIB;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;PCL_ONLY_CORE_POINT_TYPES;__SSSE3__;__SSE2__;__SSE__;FLANN_STATIC;qh_QHpointer;qh_QHpointer_dllimport;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_CONCURRENT_LIB;QT_OPENGL_LIB;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE="F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);BOOST_LIB_DIAGNOSTIC;CMAKE_INTDIR="Debug";PCLAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_DISABLE_ASSERTS;EIGEN_NO_DEBUG;BOOST_ALL_NO_LIB;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;PCL_ONLY_CORE_POINT_TYPES;__SSSE3__;__SSE2__;__SSE__;FLANN_STATIC;qh_QHpointer;qh_QHpointer_dllimport;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_CONCURRENT_LIB;QT_OPENGL_LIB;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE=\"F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);BOOST_LIB_DIAGNOSTIC;CMAKE_INTDIR=\"Debug\";PCLAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\geometry\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\geometry\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_filesystem-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_thread-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_date_time-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_iostreams-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_chrono-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_system-vc120-mt-gd-1_55.lib;delayimp.lib;..\lib\pcl_ml_debug.lib;..\lib\pcl_features_debug.lib;..\lib\pcl_filters_debug.lib;..\lib\pcl_search_debug.lib;..\lib\pcl_sample_consensus_debug.lib;..\lib\pcl_octree_debug.lib;..\lib\pcl_kdtree_debug.lib;..\lib\pcl_common_debug.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_filesystem-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_thread-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_date_time-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_iostreams-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_chrono-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_system-vc120-mt-gd-1_55.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Program Files (x86)/PCL 1.7.2/3rdParty/Boost/lib;E:/Program Files (x86)/PCL 1.7.2/3rdParty/Boost/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>VCOMP120D.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/pcl_source_1.7.2/build_pcl_master/lib/pcl_segmentation_debug.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/pcl_source_1.7.2/build_pcl_master/bin/pcl_segmentation_debug.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -fPIC -fPIC -fPIC -fPIC -fPIC /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\geometry\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_DISABLE_ASSERTS;EIGEN_NO_DEBUG;BOOST_ALL_NO_LIB;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;PCL_ONLY_CORE_POINT_TYPES;__SSSE3__;__SSE2__;__SSE__;FLANN_STATIC;qh_QHpointer;qh_QHpointer_dllimport;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_CONCURRENT_LIB;QT_OPENGL_LIB;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE="F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);BOOST_LIB_DIAGNOSTIC;CMAKE_INTDIR="Release";PCLAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_DISABLE_ASSERTS;EIGEN_NO_DEBUG;BOOST_ALL_NO_LIB;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;PCL_ONLY_CORE_POINT_TYPES;__SSSE3__;__SSE2__;__SSE__;FLANN_STATIC;qh_QHpointer;qh_QHpointer_dllimport;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_CONCURRENT_LIB;QT_OPENGL_LIB;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE=\"F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);BOOST_LIB_DIAGNOSTIC;CMAKE_INTDIR=\"Release\";PCLAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\geometry\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\geometry\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_filesystem-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_thread-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_date_time-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_iostreams-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_chrono-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_system-vc120-mt-1_55.lib;delayimp.lib;..\lib\pcl_ml_release.lib;..\lib\pcl_features_release.lib;..\lib\pcl_filters_release.lib;..\lib\pcl_search_release.lib;..\lib\pcl_sample_consensus_release.lib;..\lib\pcl_octree_release.lib;..\lib\pcl_kdtree_release.lib;..\lib\pcl_common_release.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_filesystem-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_thread-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_date_time-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_iostreams-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_chrono-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_system-vc120-mt-1_55.lib;delayimp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Program Files (x86)/PCL 1.7.2/3rdParty/Boost/lib;E:/Program Files (x86)/PCL 1.7.2/3rdParty/Boost/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>VCOMP120.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/pcl_source_1.7.2/build_pcl_master/lib/pcl_segmentation_release.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/pcl_source_1.7.2/build_pcl_master/bin/pcl_segmentation_release.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/pcl_source_1.7.2/pcl-master/pcl-master/segmentation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\cmake\Cmake_3.3.2\bin\cmake.exe -HF:/pcl_source_1.7.2/pcl-master/pcl-master -BF:/pcl_source_1.7.2/build_pcl_master --check-stamp-file F:\pcl_source_1.7.2\build_pcl_master\segmentation\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/pcl_source_1.7.2/pcl-master/pcl-master/segmentation/CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pkgconfig.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\pcl_source_1.7.2\build_pcl_master\segmentation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/pcl_source_1.7.2/pcl-master/pcl-master/segmentation/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\cmake\Cmake_3.3.2\bin\cmake.exe -HF:/pcl_source_1.7.2/pcl-master/pcl-master -BF:/pcl_source_1.7.2/build_pcl_master --check-stamp-file F:\pcl_source_1.7.2\build_pcl_master\segmentation\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/pcl_source_1.7.2/pcl-master/pcl-master/segmentation/CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pkgconfig.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\pcl_source_1.7.2\build_pcl_master\segmentation\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\boost.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\extract_clusters.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\extract_labeled_clusters.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\extract_polygonal_prism_data.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\sac_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\seeded_hue_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\segment_differences.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\region_growing.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\region_growing_rgb.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\comparator.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\plane_coefficient_comparator.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\euclidean_plane_coefficient_comparator.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\edge_aware_plane_comparator.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\rgb_plane_coefficient_comparator.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\plane_refinement_comparator.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\euclidean_cluster_comparator.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\ground_plane_comparator.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\organized_connected_component_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\organized_multi_plane_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\region_3d.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\planar_region.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\planar_polygon_fusion.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\crf_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\crf_normal_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\unary_classifier.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\conditional_euclidean_clustering.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\supervoxel_clustering.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\grabcut_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\progressive_morphological_filter.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\approximate_progressive_morphological_filter.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\lccp_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\cpc_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\min_cut_segmentation.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\random_walker.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\extract_clusters.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\extract_labeled_clusters.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\extract_polygonal_prism_data.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\sac_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\seeded_hue_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\segment_differences.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\region_growing.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\region_growing_rgb.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\organized_connected_component_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\organized_multi_plane_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\planar_polygon_fusion.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\crf_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\unary_classifier.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\crf_normal_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\conditional_euclidean_clustering.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\supervoxel_clustering.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\grabcut_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\progressive_morphological_filter.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\approximate_progressive_morphological_filter.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\lccp_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\cpc_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\min_cut_segmentation.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include\pcl\segmentation\impl\random_walker.hpp" />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\extract_clusters.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\extract_polygonal_prism_data.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\sac_segmentation.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\seeded_hue_segmentation.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\segment_differences.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\region_growing.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\region_growing_rgb.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\organized_connected_component_segmentation.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\organized_multi_plane_segmentation.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\planar_polygon_fusion.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\crf_segmentation.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\crf_normal_segmentation.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\unary_classifier.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\conditional_euclidean_clustering.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\supervoxel_clustering.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\grabcut_segmentation.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\progressive_morphological_filter.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\approximate_progressive_morphological_filter.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\lccp_segmentation.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\cpc_segmentation.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\src\min_cut_segmentation.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/ZERO_CHECK.vcxproj">
+      <Project>2DC93C80-9421-4637-AC2E-2560E40475D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/common/pcl_common.vcxproj">
+      <Project>9010D766-3B17-463C-B81A-B6BF46B934F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/features/pcl_features.vcxproj">
+      <Project>62D4865E-7229-4509-AFE0-1AACF57F60CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/filters/pcl_filters.vcxproj">
+      <Project>E9978EC7-8D67-4FD2-B11C-9013D8427797</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/kdtree/pcl_kdtree.vcxproj">
+      <Project>4B0E7805-CCF5-4AEC-B7F4-E345F0D83A3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/ml/pcl_ml.vcxproj">
+      <Project>041B89BB-27F5-4174-8E10-E7BA144C6B2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/octree/pcl_octree.vcxproj">
+      <Project>1E23787A-3543-49EB-966B-F1DDA5BF2810</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/sample_consensus/pcl_sample_consensus.vcxproj">
+      <Project>344E71E7-82AB-4CCC-9580-9BD1A1313294</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/search/pcl_search.vcxproj">
+      <Project>BD348102-0440-49BB-90A0-6D7DA6858FAA</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

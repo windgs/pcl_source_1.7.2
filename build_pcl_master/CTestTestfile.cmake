@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: F:/pcl_source_1.7.2/pcl-master/pcl-master
+# Build directory: F:/pcl_source_1.7.2/build_pcl_master
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(common)
+subdirs(kdtree)
+subdirs(octree)
+subdirs(search)
+subdirs(sample_consensus)
+subdirs(filters)
+subdirs(2d)
+subdirs(geometry)
+subdirs(io)
+subdirs(features)
+subdirs(ml)
+subdirs(segmentation)
+subdirs(visualization)
+subdirs(surface)
+subdirs(registration)
+subdirs(keypoints)
+subdirs(tracking)
+subdirs(recognition)
+subdirs(stereo)
+subdirs(apps)
+subdirs(cuda)
+subdirs(outofcore)
+subdirs(examples)
+subdirs(gpu)
+subdirs(people)
+subdirs(simulation)
+subdirs(test)
+subdirs(tools)
+subdirs(doc)

@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+F:/pcl_source_1.7.2/pcl-master/pcl-master/surface/CMakeLists.txt
+F:/Program Files (x86)/VTK/lib/cmake/vtk-6.3/UseVTK.cmake
+F:/pcl_source_1.7.2/pcl-master/pcl-master/cmake/pkgconfig.cmake.in

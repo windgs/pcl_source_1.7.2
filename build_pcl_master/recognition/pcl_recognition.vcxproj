@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9A2F9806-3AEB-4463-BF2D-9384BEF46AA9}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>pcl_recognition</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\pcl_source_1.7.2\build_pcl_master\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pcl_recognition.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pcl_recognition_debug</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\pcl_source_1.7.2\build_pcl_master\bin\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pcl_recognition.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pcl_recognition_release</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -fPIC -fPIC -fPIC -fPIC -fPIC /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\registration\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include;F:\Program Files (x86)\VTK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_DISABLE_ASSERTS;EIGEN_NO_DEBUG;BOOST_ALL_NO_LIB;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;PCL_ONLY_CORE_POINT_TYPES;__SSSE3__;__SSE2__;__SSE__;FLANN_STATIC;qh_QHpointer;qh_QHpointer_dllimport;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_CONCURRENT_LIB;QT_OPENGL_LIB;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE="F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);BOOST_LIB_DIAGNOSTIC;CMAKE_INTDIR="Debug";PCLAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BOOST_DISABLE_ASSERTS;EIGEN_NO_DEBUG;BOOST_ALL_NO_LIB;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;PCL_ONLY_CORE_POINT_TYPES;__SSSE3__;__SSE2__;__SSE__;FLANN_STATIC;qh_QHpointer;qh_QHpointer_dllimport;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_CONCURRENT_LIB;QT_OPENGL_LIB;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE=\"F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);BOOST_LIB_DIAGNOSTIC;CMAKE_INTDIR=\"Debug\";PCLAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\registration\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include;F:\Program Files (x86)\VTK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\registration\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include;F:\Program Files (x86)\VTK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_filesystem-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_thread-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_date_time-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_iostreams-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_chrono-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_system-vc120-mt-gd-1_55.lib;delayimp.lib;..\lib\pcl_registration_debug.lib;..\lib\pcl_ml_debug.lib;..\lib\pcl_io_debug.lib;..\lib\pcl_features_debug.lib;..\lib\pcl_filters_debug.lib;..\lib\pcl_search_debug.lib;..\lib\pcl_kdtree_debug.lib;..\lib\pcl_octree_debug.lib;..\lib\pcl_sample_consensus_debug.lib;..\lib\pcl_common_debug.lib;..\lib\pcl_io_ply_debug.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_filesystem-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_thread-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_date_time-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_iostreams-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_chrono-vc120-mt-gd-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_system-vc120-mt-gd-1_55.lib;delayimp.lib;F:\Program Files (x86)\VTK\lib\vtkDomainsChemistry-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersFlowPaths-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersGeneric-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersHyperTree-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersParallelImaging-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersProgrammable-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersSelection-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersSMP-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersVerdict-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkverdict-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGeovisCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkproj4-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGUISupportQtOpenGL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGUISupportQtSQL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOSQL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtksqlite-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGUISupportQtWebkit-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkViewsQt-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkViewsInfovis-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkChartsCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersImaging-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInfovisLayout-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingMath-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingMorphological-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingStatistics-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingStencil-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInteractionImage-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOAMR-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersAMR-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOEnSight-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOExodus-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOExport-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingGL2PS-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkgl2ps-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingContextOpenGL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOImport-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOInfovis-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInfovisCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtklibxml2-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOLSDyna-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOMINC-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOMovie-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkoggtheora-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOParallel-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkexoIIc-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersParallel-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIONetCDF-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkNetCDF_cxx-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkNetCDF-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkhdf5_hl-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkhdf5-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkjsoncpp-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOParallelXML-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkParallelCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOPLY-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOVideo-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingImage-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingLIC-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOXML-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOGeometry-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOXMLParser-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkexpat-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOLegacy-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingLOD-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingQt-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersTexture-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGUISupportQt-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingLabel-6.3.lib;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\Qt5Widgetsd.lib;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\Qt5Guid.lib;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\Qt5Cored.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingVolumeOpenGL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingOpenGL-6.3.lib;glu32.lib;F:\Program Files (x86)\VTK\lib\vtkViewsContext2D-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingContext2D-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkViewsCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInteractionWidgets-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersHybrid-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingGeneral-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingSources-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersModeling-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingHybrid-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOImage-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkDICOMParser-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkmetaio-6.3.lib;comctl32.lib;wsock32.lib;F:\Program Files (x86)\VTK\lib\vtkpng-6.3.lib;F:\Program Files (x86)\VTK\lib\vtktiff-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkjpeg-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInteractionStyle-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingAnnotation-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingFreeType-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkftgl-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkfreetype-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkzlib-6.3.lib;opengl32.lib;F:\Program Files (x86)\VTK\lib\vtkImagingColor-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingVolume-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonColor-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersExtraction-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersStatistics-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkalglib-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingFourier-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersGeometry-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersSources-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersGeneral-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonExecutionModel-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonComputationalGeometry-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonDataModel-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonMisc-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonTransforms-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonMath-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonSystem-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtksys-6.3.lib;ws2_32.lib;Psapi.lib;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Lib\OpenNI2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Program Files (x86)/PCL 1.7.2/3rdParty/Boost/lib;E:/Program Files (x86)/PCL 1.7.2/3rdParty/Boost/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>VCOMP120D.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/pcl_source_1.7.2/build_pcl_master/lib/pcl_recognition_debug.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/pcl_source_1.7.2/build_pcl_master/bin/pcl_recognition_debug.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> -fPIC -fPIC -fPIC -fPIC -fPIC /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\registration\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include;F:\Program Files (x86)\VTK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_DISABLE_ASSERTS;EIGEN_NO_DEBUG;BOOST_ALL_NO_LIB;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;PCL_ONLY_CORE_POINT_TYPES;__SSSE3__;__SSE2__;__SSE__;FLANN_STATIC;qh_QHpointer;qh_QHpointer_dllimport;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_CONCURRENT_LIB;QT_OPENGL_LIB;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE="F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);BOOST_LIB_DIAGNOSTIC;QT_NO_DEBUG;CMAKE_INTDIR="Release";PCLAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BOOST_DISABLE_ASSERTS;EIGEN_NO_DEBUG;BOOST_ALL_NO_LIB;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;PCL_ONLY_CORE_POINT_TYPES;__SSSE3__;__SSE2__;__SSE__;FLANN_STATIC;qh_QHpointer;qh_QHpointer_dllimport;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_CONCURRENT_LIB;QT_OPENGL_LIB;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE=\"F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);BOOST_LIB_DIAGNOSTIC;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";PCLAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\registration\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include;F:\Program Files (x86)\VTK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\registration\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\ml\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include;F:\Program Files (x86)\VTK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_filesystem-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_thread-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_date_time-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_iostreams-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_chrono-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_system-vc120-mt-1_55.lib;delayimp.lib;..\lib\pcl_registration_release.lib;..\lib\pcl_ml_release.lib;..\lib\pcl_io_release.lib;..\lib\pcl_features_release.lib;..\lib\pcl_filters_release.lib;..\lib\pcl_search_release.lib;..\lib\pcl_kdtree_release.lib;..\lib\pcl_octree_release.lib;..\lib\pcl_sample_consensus_release.lib;..\lib\pcl_common_release.lib;..\lib\pcl_io_ply_release.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_filesystem-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_thread-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_date_time-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_iostreams-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_chrono-vc120-mt-1_55.lib;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\lib\libboost_system-vc120-mt-1_55.lib;delayimp.lib;F:\Program Files (x86)\VTK\lib\vtkDomainsChemistry-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersFlowPaths-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersGeneric-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersHyperTree-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersParallelImaging-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersProgrammable-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersSelection-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersSMP-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersVerdict-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkverdict-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGeovisCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkproj4-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGUISupportQtOpenGL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGUISupportQtSQL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOSQL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtksqlite-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGUISupportQtWebkit-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkViewsQt-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkViewsInfovis-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkChartsCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersImaging-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInfovisLayout-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingMath-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingMorphological-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingStatistics-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingStencil-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInteractionImage-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOAMR-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersAMR-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOEnSight-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOExodus-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOExport-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingGL2PS-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkgl2ps-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingContextOpenGL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOImport-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOInfovis-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInfovisCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtklibxml2-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOLSDyna-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOMINC-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOMovie-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkoggtheora-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOParallel-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkexoIIc-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersParallel-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIONetCDF-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkNetCDF_cxx-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkNetCDF-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkhdf5_hl-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkhdf5-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkjsoncpp-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOParallelXML-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkParallelCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOPLY-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOVideo-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingImage-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingLIC-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOXML-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOGeometry-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOXMLParser-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkexpat-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOLegacy-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingLOD-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingQt-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersTexture-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkGUISupportQt-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingLabel-6.3.lib;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\Qt5Widgets.lib;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\Qt5Gui.lib;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\Qt5Core.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingVolumeOpenGL-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingOpenGL-6.3.lib;glu32.lib;F:\Program Files (x86)\VTK\lib\vtkViewsContext2D-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingContext2D-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkViewsCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInteractionWidgets-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersHybrid-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingGeneral-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingSources-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersModeling-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingHybrid-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOImage-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkDICOMParser-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkIOCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkmetaio-6.3.lib;comctl32.lib;wsock32.lib;F:\Program Files (x86)\VTK\lib\vtkpng-6.3.lib;F:\Program Files (x86)\VTK\lib\vtktiff-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkjpeg-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkInteractionStyle-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingAnnotation-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingFreeType-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkftgl-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkfreetype-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkzlib-6.3.lib;opengl32.lib;F:\Program Files (x86)\VTK\lib\vtkImagingColor-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingVolume-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkRenderingCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonColor-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersExtraction-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersStatistics-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkalglib-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingFourier-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkImagingCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersGeometry-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersSources-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersGeneral-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkFiltersCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonExecutionModel-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonComputationalGeometry-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonDataModel-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonMisc-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonTransforms-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonMath-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonSystem-6.3.lib;F:\Program Files (x86)\VTK\lib\vtkCommonCore-6.3.lib;F:\Program Files (x86)\VTK\lib\vtksys-6.3.lib;ws2_32.lib;Psapi.lib;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Lib\OpenNI2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Program Files (x86)/PCL 1.7.2/3rdParty/Boost/lib;E:/Program Files (x86)/PCL 1.7.2/3rdParty/Boost/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>VCOMP120.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/pcl_source_1.7.2/build_pcl_master/lib/pcl_recognition_release.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/pcl_source_1.7.2/build_pcl_master/bin/pcl_recognition_release.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/pcl_source_1.7.2/pcl-master/pcl-master/recognition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\cmake\Cmake_3.3.2\bin\cmake.exe -HF:/pcl_source_1.7.2/pcl-master/pcl-master -BF:/pcl_source_1.7.2/build_pcl_master --check-stamp-file F:\pcl_source_1.7.2\build_pcl_master\recognition\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/pcl_source_1.7.2/pcl-master/pcl-master/recognition/CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pkgconfig.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\pcl_source_1.7.2\build_pcl_master\recognition\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/pcl_source_1.7.2/pcl-master/pcl-master/recognition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\cmake\Cmake_3.3.2\bin\cmake.exe -HF:/pcl_source_1.7.2/pcl-master/pcl-master -BF:/pcl_source_1.7.2/build_pcl_master --check-stamp-file F:\pcl_source_1.7.2\build_pcl_master\recognition\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/pcl_source_1.7.2/pcl-master/pcl-master/recognition/CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pkgconfig.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\pcl_source_1.7.2\build_pcl_master\recognition\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\boost.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\color_gradient_dot_modality.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\color_gradient_modality.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\color_modality.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\crh_alignment.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\linemod.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\dotmod.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\quantizable_modality.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\quantized_map.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\dot_modality.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\region_xy.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\mask_map.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\point_types.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\distance_map.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\dense_quantized_multi_mod_template.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\sparse_quantized_multi_mod_template.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\surface_normal_modality.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\linemod\line_rgbd.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\implicit_shape_model.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\auxiliary.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\hypothesis.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\model_library.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\rigid_transform_space.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\obj_rec_ransac.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\orr_graph.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\orr_octree_zprojection.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\trimmed_icp.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\orr_octree.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\simple_octree.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\voxel_structure.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\ransac_based\bvh.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\linemod\line_rgbd.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\ransac_based\simple_octree.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\ransac_based\voxel_structure.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\implicit_shape_model.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\face_detection\face_common.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\face_detection\face_detector_data_provider.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\face_detection\rf_face_detector_trainer.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\face_detection\rf_face_utils.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\hv\occlusion_reasoning.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\hv\hypotheses_verification.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\hv\hv_papazov.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\hv\hv_go.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\hv\greedy_verification.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\hv\occlusion_reasoning.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\hv\hv_papazov.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\hv\greedy_verification.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\hv\hv_go.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\cg\correspondence_grouping.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\cg\hough_3d.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\cg\geometric_consistency.h" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\cg\correspondence_grouping.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\cg\hough_3d.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\impl\cg\geometric_consistency.hpp" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty\metslib\abstract-search.hh" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty\metslib\local-search.hh" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty\metslib\mets.hh" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty\metslib\metslib_config.hh" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty\metslib\model.hh" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty\metslib\observer.hh" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty\metslib\simulated-annealing.hh" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty\metslib\tabu-search.hh" />
+    <ClInclude Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty\metslib\termination-criteria.hh" />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\linemod.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\quantizable_modality.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\dotmod.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\mask_map.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\hv\occlusion_reasoning.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\hv\hv_papazov.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\hv\hv_go.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\hv\greedy_verification.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\cg\hough_3d.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\cg\geometric_consistency.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\ransac_based\obj_rec_ransac.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\ransac_based\model_library.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\ransac_based\orr_octree.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\ransac_based\orr_octree_zprojection.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\face_detection\face_detector_data_provider.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\face_detection\rf_face_detector_trainer.cpp"  />
+    <ClCompile Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\src\implicit_shape_model.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/ZERO_CHECK.vcxproj">
+      <Project>2DC93C80-9421-4637-AC2E-2560E40475D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/common/pcl_common.vcxproj">
+      <Project>9010D766-3B17-463C-B81A-B6BF46B934F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/features/pcl_features.vcxproj">
+      <Project>62D4865E-7229-4509-AFE0-1AACF57F60CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/filters/pcl_filters.vcxproj">
+      <Project>E9978EC7-8D67-4FD2-B11C-9013D8427797</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/pcl_io.vcxproj">
+      <Project>C87198A6-A8B7-4DAC-83B6-7E2321A4E919</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/pcl_io_ply.vcxproj">
+      <Project>58CD7A24-94D5-4443-AA60-84C6A2C34A4D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/kdtree/pcl_kdtree.vcxproj">
+      <Project>4B0E7805-CCF5-4AEC-B7F4-E345F0D83A3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/ml/pcl_ml.vcxproj">
+      <Project>041B89BB-27F5-4174-8E10-E7BA144C6B2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/octree/pcl_octree.vcxproj">
+      <Project>1E23787A-3543-49EB-966B-F1DDA5BF2810</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/registration/pcl_registration.vcxproj">
+      <Project>87D42468-BAA2-487D-A681-7AED63950300</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/sample_consensus/pcl_sample_consensus.vcxproj">
+      <Project>344E71E7-82AB-4CCC-9580-9BD1A1313294</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/search/pcl_search.vcxproj">
+      <Project>BD348102-0440-49BB-90A0-6D7DA6858FAA</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

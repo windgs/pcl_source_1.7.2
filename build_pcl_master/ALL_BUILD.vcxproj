@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5FA0FEB7-836A-43E7-8D5E-30E36AF0E325}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\gitHub\GuangPoRepository\pcl_source_1.7.2\pcl-master\pcl-master;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\pcl-master\pcl-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/pcl_source_1.7.2/pcl-master/pcl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+F:\cmake\Cmake_3.3.2\bin\cmake.exe -HF:/pcl_source_1.7.2/pcl-master/pcl-master -BF:/pcl_source_1.7.2/build_pcl_master --check-stamp-file F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/pcl_source_1.7.2/pcl-master/pcl-master/CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\CMakeLists.txt;F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\3.3.2\CMakeSystem.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\3.3.2\CMakeCCompiler.cmake;F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeCInformation.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeRCInformation.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPkgConfig.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_verbosity.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_targets.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_utils.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_options.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_sse.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CheckCXXSourceRuns.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_utils.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\uninstall_target.cmake.in;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindOpenMP.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindEigen.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPkgConfig.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindFLANN.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPkgConfig.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\Findlibusb-1.0.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindOpenNI2.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPkgConfig.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPNG.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindZLIB.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindQhull.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_cuda.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindCUDA.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_qt5.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\VTKConfigVersion.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\VTKConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\VTKTargets.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\VTKTargets-release.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\vtkModuleAPI.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkalglib.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkChartsCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonColor.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonDataModel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonMath.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtksys.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonMisc.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonSystem.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonTransforms.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInfovisCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersExtraction.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonExecutionModel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersGeneral.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonComputationalGeometry.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersStatistics.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingFourier.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingContext2D.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersGeometry.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersSources.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingFreeType.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkfreetype.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkzlib.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkftgl.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkDICOMParser.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkDomainsChemistry.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOXML.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOGeometry.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOXMLParser.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkexpat.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkexodusII.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtknetcdf.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkhdf5.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersAMR.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkParallelCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOLegacy.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkUtilitiesHashSource.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersFlowPaths.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersGeneric.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersHybrid.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingSources.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersHyperTree.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersImaging.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingGeneral.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersModeling.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersParallel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersParallelImaging.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersProgrammable.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersSelection.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersSMP.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersTexture.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersVerdict.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkverdict.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGeovisCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInfovisLayout.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingHybrid.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOImage.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkMetaIO.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkjpeg.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkpng.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtktiff.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInteractionStyle.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInteractionWidgets.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingAnnotation.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingColor.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingVolume.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkViewsCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtklibproj4.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkgl2ps.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGUISupportQt.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingOpenGL.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkParseOGLExt.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkUtilitiesEncodeString.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGUISupportQtOpenGL.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGUISupportQtSQL.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5Sql_QMYSQLDriverPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOSQL.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtksqlite.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGUISupportQtWebkit.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5WebKit\Qt5WebKitConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5WebKit\Qt5WebKitConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkViewsQt.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkViewsInfovis.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingLabel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingMath.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingMorphological.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingStatistics.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingStencil.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInteractionImage.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOAMR.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOEnSight.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOExodus.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOExport.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingGL2PS.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingContextOpenGL.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOImport.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOInfovis.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtklibxml2.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOLSDyna.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOMINC.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOMovie.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkoggtheora.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIONetCDF.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOParallel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkjsoncpp.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOParallelXML.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOPLY.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOVideo.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingImage.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingLIC.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingLOD.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingQt.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingVolumeOpenGL.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkViewsContext2D.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeConfigurableFile.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindQVTK.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\UseVTK.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindPcap.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CheckFunctionExists.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_gl.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindOpenGL.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindGLUT.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_boost.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindBoost.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindBoost.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\pcl_config.h.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_targets.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_utils.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_pclconfig.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\PCLConfig.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\PCLConfigVersion.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_all_in_one_installer.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_cpack.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\InstallRequiredSystemLibraries.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\cpack_options.cmake.in;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CPack.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CPackComponent.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Templates\CPackConfig.cmake.in;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Templates\CPackConfig.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\dep_graph.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/pcl_source_1.7.2/pcl-master/pcl-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+F:\cmake\Cmake_3.3.2\bin\cmake.exe -HF:/pcl_source_1.7.2/pcl-master/pcl-master -BF:/pcl_source_1.7.2/build_pcl_master --check-stamp-file F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/pcl_source_1.7.2/pcl-master/pcl-master/CMakeLists.txt;F:\pcl_source_1.7.2\pcl-master\pcl-master\CMakeLists.txt;F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\3.3.2\CMakeSystem.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeSystemSpecificInitialize.cmake;F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\3.3.2\CMakeCCompiler.cmake;F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\3.3.2\CMakeCXXCompiler.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeGenericSystem.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\WindowsPaths.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeCInformation.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\3.3.2\CMakeRCCompiler.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeRCInformation.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeCXXInformation.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\Platform\Windows-MSVC.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPkgConfig.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_verbosity.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_targets.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_utils.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_options.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_sse.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CheckCXXSourceRuns.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_utils.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\uninstall_target.cmake.in;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindOpenMP.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindEigen.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPkgConfig.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindFLANN.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPkgConfig.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\Findlibusb-1.0.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindOpenNI2.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPkgConfig.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPNG.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindZLIB.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindQhull.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_cuda.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindCUDA.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_qt5.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Concurrent\Qt5ConcurrentConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\VTKConfigVersion.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\VTKConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\VTKTargets.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\VTKTargets-release.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\vtkModuleAPI.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkalglib.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkChartsCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonColor.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonDataModel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonMath.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtksys.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonMisc.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonSystem.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonTransforms.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInfovisCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersExtraction.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonExecutionModel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersGeneral.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkCommonComputationalGeometry.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersStatistics.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingFourier.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingContext2D.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersGeometry.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersSources.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingFreeType.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkfreetype.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkzlib.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkftgl.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkDICOMParser.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkDomainsChemistry.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOXML.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOGeometry.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOXMLParser.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkexpat.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkexodusII.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtknetcdf.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkhdf5.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersAMR.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkParallelCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOLegacy.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkUtilitiesHashSource.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersFlowPaths.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersGeneric.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersHybrid.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingSources.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersHyperTree.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersImaging.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingGeneral.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersModeling.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersParallel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersParallelImaging.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersProgrammable.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersSelection.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersSMP.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersTexture.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkFiltersVerdict.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkverdict.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGeovisCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInfovisLayout.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingHybrid.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOImage.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkMetaIO.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkjpeg.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkpng.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtktiff.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInteractionStyle.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInteractionWidgets.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingAnnotation.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingColor.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingVolume.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkViewsCore.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtklibproj4.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkgl2ps.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGUISupportQt.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingOpenGL.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkParseOGLExt.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkUtilitiesEncodeString.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGUISupportQtOpenGL.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGUISupportQtSQL.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5SqlConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5SqlConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5Sql_QMYSQLDriverPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5Sql_QODBCDriverPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5Sql_QPSQLDriverPlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Sql\Qt5Sql_QSQLiteDriverPlugin.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOSQL.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtksqlite.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkGUISupportQtWebkit.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5WebKitWidgets\Qt5WebKitWidgetsConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5WebKit\Qt5WebKitConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5WebKit\Qt5WebKitConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Network\Qt5Network_QNativeWifiEnginePlugin.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkViewsQt.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkViewsInfovis.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingLabel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingMath.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingMorphological.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingStatistics.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkImagingStencil.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkInteractionImage.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOAMR.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOEnSight.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOExodus.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOExport.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingGL2PS.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingContextOpenGL.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOImport.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOInfovis.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtklibxml2.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOLSDyna.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOMINC.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOMovie.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkoggtheora.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIONetCDF.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOParallel.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkjsoncpp.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOParallelXML.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOPLY.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkIOVideo.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingImage.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingLIC.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingLOD.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingQt.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;E:\Qt\Qt5.4.2\5.4\msvc2013\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkRenderingVolumeOpenGL.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\Modules\vtkViewsContext2D.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeConfigurableFile.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindQVTK.cmake;F:\Program Files (x86)\VTK\lib\cmake\vtk-6.3\UseVTK.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\Modules\FindPcap.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CheckFunctionExists.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_gl.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindOpenGL.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindGLUT.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindPackageMessage.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_find_boost.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindBoost.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\FindBoost.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\pcl_config.h.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_targets.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_utils.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\CMakeParseArguments.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_pclconfig.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\PCLConfig.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\PCLConfigVersion.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_all_in_one_installer.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\pcl_cpack.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\InstallRequiredSystemLibraries.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\cpack_options.cmake.in;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CPack.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Modules\CPackComponent.cmake;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Templates\CPackConfig.cmake.in;F:\cmake\Cmake_3.3.2\share\cmake-3.3\Templates\CPackConfig.cmake.in;F:\pcl_source_1.7.2\pcl-master\pcl-master\cmake\dep_graph.cmake;F:\pcl_source_1.7.2\pcl-master\pcl-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/ZERO_CHECK.vcxproj">
+      <Project>2DC93C80-9421-4637-AC2E-2560E40475D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_add_gaussian_noise.vcxproj">
+      <Project>D529628E-5B0E-4185-8669-3137940A1A55</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_apps.vcxproj">
+      <Project>AF568FB9-8AA0-4F7F-8577-E079A3AFA941</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_boundary_estimation.vcxproj">
+      <Project>CC615089-C4B3-4A02-BB8D-9F532FF174C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_cluster_extraction.vcxproj">
+      <Project>0890B7A1-D2A4-4480-B75C-4E612A1A19AB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/common/pcl_common.vcxproj">
+      <Project>9010D766-3B17-463C-B81A-B6BF46B934F7</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_compute_cloud_error.vcxproj">
+      <Project>3FA4E00C-3616-4463-A722-BF9C0DE208F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_compute_hausdorff.vcxproj">
+      <Project>F7AD7FB6-A1D3-4145-839A-1DA34E35D853</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_compute_hull.vcxproj">
+      <Project>85C73223-279C-4BE4-BFDA-E84F23A9D7E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_concatenate_points_pcd.vcxproj">
+      <Project>7FA1E610-0A67-431D-BBEE-A7E5F357EB57</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/tools/pcl_convert_pcd_ascii_binary.vcxproj">
+      <Project>975C3330-D1BB-4746-85D0-B54C09A146C5</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/tools/pcl_converter.vcxproj">
+      <Project>F9157227-7441-4862-9169-9C5F2EEF4938</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_convolve.vcxproj">
+      <Project>F754F752-D842-4B7E-A9B8-175F34D0F7F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_crf_segmentation.vcxproj">
+      <Project>9170BE7D-D4B4-4F9C-B164-CA6F2E8E03FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_crop_to_hull.vcxproj">
+      <Project>F8C10996-FE01-4A71-A4C7-C1A39385BED8</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_demean_cloud.vcxproj">
+      <Project>D2696378-D880-4956-B08F-D3D5C224352F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_elch.vcxproj">
+      <Project>95E89A0F-057C-475F-99DD-C80D190D9F07</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/common/pcl_example_check_if_point_is_valid.vcxproj">
+      <Project>9CD7E11F-5B31-415F-9ECF-E5140CE5ADC2</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/common/pcl_example_copy_point_cloud.vcxproj">
+      <Project>C4083270-1A3A-43F6-B1C9-31D65E737583</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/segmentation/pcl_example_cpc_segmentation.vcxproj">
+      <Project>D9B189F1-465F-4DE5-A590-02094C3CD5F6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/features/pcl_example_difference_of_normals.vcxproj">
+      <Project>44061C3E-FA63-479B-B067-CDEE99109618</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/segmentation/pcl_example_extract_clusters_normals.vcxproj">
+      <Project>7CD6F167-EAC2-45BD-B9A3-51C30A424F2B</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/filters/pcl_example_extract_indices.vcxproj">
+      <Project>675C9599-D84B-4608-B343-C8816BE0BD8A</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/features/pcl_example_fast_point_feature_histograms.vcxproj">
+      <Project>86461FA6-E510-4B9A-9A14-622F686CC831</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/keypoints/pcl_example_get_keypoints_indices.vcxproj">
+      <Project>CD6EB0E4-5499-43C6-9453-7DBCC7FEA0B8</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/common/pcl_example_get_max_min_coordinates.vcxproj">
+      <Project>A0DEF6CB-0F34-453E-A92F-A039EED200EF</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/geometry/pcl_example_half_edge_mesh.vcxproj">
+      <Project>A3935233-B537-4246-A90D-79619502C9B1</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/segmentation/pcl_example_lccp_segmentation.vcxproj">
+      <Project>13289897-B882-483F-B2F6-0674E35DB99B</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/features/pcl_example_normal_estimation.vcxproj">
+      <Project>791BB1E9-54DD-4091-9750-5FFA6C1CEEC2</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/common/pcl_example_organized_point_cloud.vcxproj">
+      <Project>7BB6E484-35FB-4669-94D4-74B11E2B041C</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/outofcore/pcl_example_outofcore.vcxproj">
+      <Project>18C55A17-4684-432B-A917-711B059C969F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/outofcore/pcl_example_outofcore_with_lod.vcxproj">
+      <Project>83225F2F-0FFF-4C73-97EF-17C4B2D0CA48</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/features/pcl_example_point_feature_histograms.vcxproj">
+      <Project>C1944866-9113-41EB-AF00-FBE45C3C331E</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/features/pcl_example_principal_curvatures_estimation.vcxproj">
+      <Project>1705D528-D7EF-4643-A425-D2860AE89AB4</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/segmentation/pcl_example_region_growing.vcxproj">
+      <Project>C286F75B-E619-4C54-B26E-A4225874C4A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/filters/pcl_example_remove_nan_from_point_cloud.vcxproj">
+      <Project>B4547BE7-DCAF-43CA-9E3B-B0038850A355</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/features/pcl_example_rift_estimation.vcxproj">
+      <Project>77BE4E67-A295-47FF-9223-15338E3209FB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/common/pcl_example_scope_time.vcxproj">
+      <Project>6EFE187B-8D11-4F86-ABDD-06A968C0AC1E</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/features/pcl_example_shape_contexts.vcxproj">
+      <Project>BF0B4DF0-68B9-4950-B8A7-4251EFD28AF1</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/keypoints/pcl_example_sift_keypoint_estimation.vcxproj">
+      <Project>6C13B853-A6EA-43CC-A0F2-5387B110662E</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/keypoints/pcl_example_sift_normal_keypoint_estimation.vcxproj">
+      <Project>E434DA28-B8C2-45F4-85D0-3EA03BC22E8B</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/keypoints/pcl_example_sift_z_keypoint_estimation.vcxproj">
+      <Project>5B7DCB46-EF09-4E5A-A86A-C69E3B47CA51</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/features/pcl_example_spin_images.vcxproj">
+      <Project>6DDEB985-9FEA-47DE-AD8E-E86A2BD82BC8</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/stereo/pcl_example_stereo_baseline.vcxproj">
+      <Project>66DF3215-A1FB-46EC-BCBF-E8BEE414AEB0</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/examples/segmentation/pcl_example_supervoxels.vcxproj">
+      <Project>CFFB4C4B-5B5F-441B-B821-B0A1F2E7062C</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_extract_feature.vcxproj">
+      <Project>BD9EF197-F3A5-4C17-836B-CCD01B29A42A</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_face_trainer.vcxproj">
+      <Project>3C514822-4352-432F-B372-938CCF597BB6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_fast_bilateral_filter.vcxproj">
+      <Project>F7B7FB2B-A27C-46CF-BAC5-85D0E91EA2EA</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_feature_matching.vcxproj">
+      <Project>D81FF728-4451-4196-B18C-DC1AFE8BEA0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/features/pcl_features.vcxproj">
+      <Project>62D4865E-7229-4509-AFE0-1AACF57F60CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/filters/pcl_filters.vcxproj">
+      <Project>E9978EC7-8D67-4FD2-B11C-9013D8427797</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_fpfh_estimation.vcxproj">
+      <Project>FDCC6619-387D-414D-AD40-06608A89653B</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_fs_face_detector.vcxproj">
+      <Project>E1ACA233-83E4-40D1-9D03-2C4379F4D191</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_generate.vcxproj">
+      <Project>12CC73BF-2784-461F-932C-890AED97333B</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_gp3_surface.vcxproj">
+      <Project>D34031BD-72A6-4659-BD1D-D89DBD13E118</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_grid_min.vcxproj">
+      <Project>B6BF1289-45C9-4F17-BC4A-088D84C76FD3</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/tools/pcl_hdl_grabber.vcxproj">
+      <Project>7FAA3AE1-EC0A-4A03-B42B-86D961BA27A8</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/visualization/tools/pcl_hdl_viewer_simple.vcxproj">
+      <Project>E9E5F2E1-B1F8-4853-AAFC-0CC80A6F1217</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_icp.vcxproj">
+      <Project>6C35948A-457F-479F-BE52-7828549AD996</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_icp2d.vcxproj">
+      <Project>C5F2ABE4-8E68-4D29-ACCA-BEC8F85E995A</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/pcl_io.vcxproj">
+      <Project>C87198A6-A8B7-4DAC-83B6-7E2321A4E919</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/pcl_io_ply.vcxproj">
+      <Project>58CD7A24-94D5-4443-AA60-84C6A2C34A4D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/kdtree/pcl_kdtree.vcxproj">
+      <Project>4B0E7805-CCF5-4AEC-B7F4-E345F0D83A3D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/keypoints/pcl_keypoints.vcxproj">
+      <Project>09A9D7F8-19A5-4821-A980-0B8FF5AB2E46</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_linemod_detection.vcxproj">
+      <Project>C1847E24-3BAD-4CF5-A625-6C054A9615B8</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_local_max.vcxproj">
+      <Project>0326A03A-5B21-4483-A273-0D88C15EEE43</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_lum.vcxproj">
+      <Project>052AF5C8-B49F-4C9F-8E52-87DD02A84472</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_manual_registration.vcxproj">
+      <Project>D6AB5D45-7DBE-48AB-8392-C37E29436CDB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_marching_cubes_reconstruction.vcxproj">
+      <Project>A2E61B49-3132-440C-AFBB-CE92DBF071D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_match_linemod_template.vcxproj">
+      <Project>A4932CD9-8275-45F5-9B51-8A2D5F284C0B</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_mesh2pcd.vcxproj">
+      <Project>A54A11C7-E7B3-4E61-9123-AD64749B968F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_mesh_sampling.vcxproj">
+      <Project>08C05800-E2EB-4354-AC26-5E1A50E14775</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/ml/pcl_ml.vcxproj">
+      <Project>041B89BB-27F5-4174-8E10-E7BA144C6B2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_mls_smoothing.vcxproj">
+      <Project>941EF616-5E7B-44F7-9D77-D6DCCC8A8D7D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_morph.vcxproj">
+      <Project>5670274B-B977-4B3F-943B-E55E5AAEFA61</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_multiscale_feature_persistence_example.vcxproj">
+      <Project>665F5C1C-C44F-48F5-A52F-4752443825D5</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_ndt2d.vcxproj">
+      <Project>5AA1834C-2038-4B4E-A7C7-D9E6B1C974DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_ndt3d.vcxproj">
+      <Project>336BFE36-6032-4395-A597-EA6875A865D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_nn_classification_example.vcxproj">
+      <Project>7308DFD4-AC8E-46E2-A030-1B9891D267FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_normal_estimation.vcxproj">
+      <Project>A44B1F3F-3909-4AEE-B693-6867AC1CE81C</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj2pcd.vcxproj">
+      <Project>D655F5FF-3EE1-40B5-BA36-2FDEB2FA53E3</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj2ply.vcxproj">
+      <Project>6BD83FA3-38A4-4ABB-8F92-0BADC1FF1BCE</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj2vtk.vcxproj">
+      <Project>DC012E9C-8E43-4FEE-B978-FA10BB05BA9D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj_rec_ransac_accepted_hypotheses.vcxproj">
+      <Project>DF7BC10C-A3CC-4A16-B47E-45A84D083A17</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj_rec_ransac_hash_table.vcxproj">
+      <Project>32839296-B7B3-4D61-9C4E-FB3319F16396</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj_rec_ransac_model_opps.vcxproj">
+      <Project>8B453338-77BA-41D3-B43D-447158F7F268</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj_rec_ransac_orr_octree.vcxproj">
+      <Project>2C78E906-25A0-4634-8ABC-73512B5DC085</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj_rec_ransac_orr_octree_zprojection.vcxproj">
+      <Project>9C4FB681-CBE0-4103-A703-13459AC75135</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj_rec_ransac_result.vcxproj">
+      <Project>9D09EE5D-4695-4480-A5E7-86C6647E552D</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_obj_rec_ransac_scene_opps.vcxproj">
+      <Project>D0151018-A74F-4A45-84D0-7E0D0B346C6A</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/octree/pcl_octree.vcxproj">
+      <Project>1E23787A-3543-49EB-966B-F1DDA5BF2810</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_octree_viewer.vcxproj">
+      <Project>A1C75BC5-F364-4B9A-BC43-8BB0ECC1620F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/visualization/tools/pcl_openni2_viewer.vcxproj">
+      <Project>782FD703-ACD7-415D-A5CA-20E65D2F1F09</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_organized_pcd_to_png.vcxproj">
+      <Project>5056431A-6F56-4106-AF6B-3BBDE0DB04B2</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_outlier_removal.vcxproj">
+      <Project>78E7DC7C-8A93-4450-B8E7-A603D7124ED1</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/outofcore/pcl_outofcore.vcxproj">
+      <Project>091121C9-8AB6-4549-9D9D-6CC0B7E38CCC</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/outofcore/tools/pcl_outofcore_print.vcxproj">
+      <Project>290843F4-F167-4C5F-BBFF-16317E95D727</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/outofcore/tools/pcl_outofcore_process.vcxproj">
+      <Project>F191C957-8825-45A8-9688-24D6B4B66617</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/outofcore/tools/pcl_outofcore_viewer.vcxproj">
+      <Project>6D0B2616-1237-487E-AC03-81D54EC1F623</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_passthrough_filter.vcxproj">
+      <Project>9EA8FEDF-5474-4EA9-8DEC-2E68101C4629</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_pcd2ply.vcxproj">
+      <Project>575D21E2-6E3A-4915-A0F7-03ED13D9B92B</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_pcd2png.vcxproj">
+      <Project>CC3A0F33-E279-4046-AFBC-00DB7F790DA2</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_pcd2vtk.vcxproj">
+      <Project>97CA97DC-5828-4AF0-889B-07FF7760A9C3</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_pcd_change_viewpoint.vcxproj">
+      <Project>2D356213-3670-4F80-92AC-B4DE7FFE4D69</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/tools/pcl_pcd_convert_NaN_nan.vcxproj">
+      <Project>0A8FD618-D55C-4B8D-8B78-FA418AAD87A7</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/visualization/tools/pcl_pcd_image_viewer.vcxproj">
+      <Project>4BF3DD92-CFA6-4056-BF83-352133AE0D99</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/tools/pcl_pcd_introduce_nan.vcxproj">
+      <Project>7680B124-802E-4CC8-AC7C-4586D5CD0403</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_pcd_organized_edge_detection.vcxproj">
+      <Project>5C0DE85A-9508-4633-8DF0-2FDDB89C153F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_pcd_organized_multi_plane_segmentation.vcxproj">
+      <Project>44506CA9-25EE-434E-B440-0C520AC6B277</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_pcd_select_object_plane.vcxproj">
+      <Project>74048B73-7B02-492B-A08C-F97C693EB426</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_pcd_video_player.vcxproj">
+      <Project>BC668C65-5AB7-42C2-9F8D-C64C4221C8D6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_pclzf2pcd.vcxproj">
+      <Project>BDDAB59F-E58B-4DD4-BB5F-E8D6BC5D7E14</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/people/pcl_people.vcxproj">
+      <Project>6A3AE50B-CB8B-4144-ACA5-CF57E8D6D88E</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_plane_projection.vcxproj">
+      <Project>A06EBF75-E8C1-4D6B-A050-40E8550963F5</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/tools/ply/pcl_ply2obj.vcxproj">
+      <Project>B807873D-B096-430D-8625-093CD9A3BFE4</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_ply2pcd.vcxproj">
+      <Project>3AB83796-394E-4306-B449-BC213F5742DA</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/tools/ply/pcl_ply2ply.vcxproj">
+      <Project>F039173C-0AD2-4B92-8979-A97C599A4BDF</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/tools/ply/pcl_ply2raw.vcxproj">
+      <Project>3E51BC82-C104-4B89-B1F7-6ACA3E741A59</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_ply2vtk.vcxproj">
+      <Project>DBBBFB42-CBCF-48D3-A065-9ABD05F65F5C</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/io/tools/ply/pcl_plyheader.vcxproj">
+      <Project>B55B26F5-6A03-4539-B553-57804C36D3DB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_png2pcd.vcxproj">
+      <Project>466B108B-0721-48AF-B479-875F6A89BA25</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_poisson_reconstruction.vcxproj">
+      <Project>C0E74003-DF1A-4D59-ACAB-66E6F0F2A5B4</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_ppf_object_recognition.vcxproj">
+      <Project>191E8A84-3510-4552-875A-79A77564EB87</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_progressive_morphological_filter.vcxproj">
+      <Project>96E4DE58-1978-41BD-80FA-A4A2389E465A</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_pyramid_surface_matching.vcxproj">
+      <Project>7D9558B0-A011-45A7-80BF-C7DAA9C63846</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_radius_filter.vcxproj">
+      <Project>6CB27163-2108-495A-8387-27B9545B4D97</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/recognition/pcl_recognition.vcxproj">
+      <Project>9A2F9806-3AEB-4463-BF2D-9384BEF46AA9</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/registration/pcl_registration.vcxproj">
+      <Project>87D42468-BAA2-487D-A681-7AED63950300</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_registration_visualizer.vcxproj">
+      <Project>DE62402D-C0A9-420C-B1E5-1FA609ACC428</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_sac_segmentation_plane.vcxproj">
+      <Project>AD6AE213-A8DB-4293-A34F-94B83A1F31F4</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/sample_consensus/pcl_sample_consensus.vcxproj">
+      <Project>344E71E7-82AB-4CCC-9580-9BD1A1313294</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/search/pcl_search.vcxproj">
+      <Project>BD348102-0440-49BB-90A0-6D7DA6858FAA</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/segmentation/pcl_segmentation.vcxproj">
+      <Project>1DE3A845-67C1-4737-9451-50B7623130D2</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_spin_estimation.vcxproj">
+      <Project>CA279DF8-578F-4400-9CAF-5FFD2FB985FF</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_statistical_multiscale_interest_region_extraction_example.vcxproj">
+      <Project>53B7FBF7-6D53-49E8-B708-F6E3214D247A</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/stereo/pcl_stereo.vcxproj">
+      <Project>2AA6AB9F-1701-4136-A229-4BFF191BFF07</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_stereo_ground_segmentation.vcxproj">
+      <Project>3B005730-4CD7-49F4-BDEA-7B77BFFA3E83</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/surface/pcl_surface.vcxproj">
+      <Project>9725EBEC-7374-47D7-A891-2E01FC140803</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_surfel_smoothing_test.vcxproj">
+      <Project>4F5AC397-CA65-450B-9413-24815D250720</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/apps/pcl_test_search_speed.vcxproj">
+      <Project>CE26DDBF-41FA-4025-94EE-DDAA3DD284DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_tiff2pcd.vcxproj">
+      <Project>1B27EAEA-E4BA-42CE-9289-CF7DDF379EA6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/visualization/tools/pcl_timed_trigger_test.vcxproj">
+      <Project>3A76A81D-F311-4BC5-AB32-8A421360E278</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tracking/pcl_tracking.vcxproj">
+      <Project>E11EC095-6B35-45A0-9BCB-512AB75F5938</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_train_linemod_template.vcxproj">
+      <Project>689C1DB4-BFF8-4C84-8D72-673F63EC7912</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_train_unary_classifier.vcxproj">
+      <Project>D5DD26E1-8A2E-46E0-8813-1761F356752A</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_transform_from_viewpoint.vcxproj">
+      <Project>F7B9997B-5EE8-4FE8-9293-02B4D4A1D97E</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_transform_point_cloud.vcxproj">
+      <Project>633FBC36-0B69-4932-A9C9-6D7D875EF31F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_unary_classifier_segment.vcxproj">
+      <Project>E778F394-9D94-49D2-8D6F-A7CB1F5FE5DF</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_uniform_sampling.vcxproj">
+      <Project>D01911B8-3CCF-45B7-9920-ED37CEA92941</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_vfh_estimation.vcxproj">
+      <Project>361F7D2C-40D1-44BC-898E-EC09E5BF6CFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/visualization/tools/pcl_viewer.vcxproj">
+      <Project>11CB6AEE-895E-4E50-95F0-856680DB441C</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_virtual_scanner.vcxproj">
+      <Project>41E18F46-90D8-4261-AE88-80EAD330D5AD</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/visualization/pcl_visualization.vcxproj">
+      <Project>2F5B4D5B-5D18-4A28-9854-1B05CC0C62CA</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/visualization/tools/pcl_vlp_viewer.vcxproj">
+      <Project>8E99A35E-8E7F-44CA-B731-31686861FE76</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_voxel_grid.vcxproj">
+      <Project>0CB3E3F7-90B2-488A-89E2-E329B638CBDD</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_voxel_grid_occlusion_estimation.vcxproj">
+      <Project>CF8B9678-60BE-4FFD-9DDB-C95732F102A6</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_vtk2obj.vcxproj">
+      <Project>840311ED-3BAC-45EF-8F92-B310A9420A29</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_vtk2pcd.vcxproj">
+      <Project>A2BEE0D9-A6F2-43A8-93B3-4A63F45F7C2F</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_vtk2ply.vcxproj">
+      <Project>F5A5E93B-8EE6-428B-9A76-E6A3A864A8CB</Project>
+    </ProjectReference>
+    <ProjectReference Include="F:/pcl_source_1.7.2/build_pcl_master/tools/pcl_xyz2pcd.vcxproj">
+      <Project>5A3A2A80-9420-44AE-9AFB-CBADED6A5F35</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

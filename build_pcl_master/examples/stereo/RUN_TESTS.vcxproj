@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C3D0B14D-BF49-42F3-A941-40795F6BA1D8}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>RUN_TESTS</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\keypoints\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\outofcore\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\stereo\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\geometry\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\visualization\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+F:\cmake\Cmake_3.3.2\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Program Files (x86)\PCL 1.7.2\3rdParty\Eigen\eigen3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\FLANN\include;F:\test\test\GP_OpenNI_2.2_1.1.6.3(3)\GP-TOF-OpenNI-Win\Include;F:\pcl_source_1.7.2\pcl-master\pcl-master\recognition\include\pcl\recognition\3rdparty;E:\Program Files (x86)\PCL 1.7.2\3rdParty\QHull\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtCore;E:\Qt\Qt5.4.2\5.4\msvc2013\mkspecs\win32-msvc2013;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtGui;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtWidgets;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtConcurrent;E:\Qt\Qt5.4.2\5.4\msvc2013\include\QtOpenGL;F:\Program Files (x86)\VTK\include\vtk-6.3;E:\Program Files (x86)\PCL 1.7.2\3rdParty\Boost\include\boost-1_55;F:\pcl_source_1.7.2\build_pcl_master\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\common\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\io\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\features\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\search\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\kdtree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\octree\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\filters\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\keypoints\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\segmentation\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\sample_consensus\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\outofcore\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\stereo\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\geometry\include;F:\pcl_source_1.7.2\pcl-master\pcl-master\visualization\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+F:\cmake\Cmake_3.3.2\bin\ctest.exe --force-new-ctest-process -C $(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\pcl_source_1.7.2\build_pcl_master\CMakeFiles\4502f3db0541d2dc87693cf5bc521d30\RUN_TESTS_force.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/4502f3db0541d2dc87693cf5bc521d30/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\pcl_source_1.7.2\build_pcl_master\examples\stereo\CMakeFiles\RUN_TESTS_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/pcl_source_1.7.2/build_pcl_master/CMakeFiles/4502f3db0541d2dc87693cf5bc521d30/RUN_TESTS_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\pcl_source_1.7.2\build_pcl_master\examples\stereo\CMakeFiles\RUN_TESTS_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
